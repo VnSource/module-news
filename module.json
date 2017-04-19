@@ -1,0 +1,26 @@
+{
+    "name": "vnsource/module-news",
+    "displayName": "News",
+    "type": "module",
+    "description": "The VnSource Module News",
+    "homepage": "https://github.com/vnsource/module-news",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Mr. VnS",
+            "email": "lienhe.vns@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "helper.php"
+        ],
+        "psr-4": {
+            "VnsModules\\News\\": "/"
+        }
+    },
+    "providers": [
+        "VnsModules\\News\\ModuleServiceProvider"
+    ]
+}
